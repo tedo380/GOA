@@ -1,0 +1,96 @@
+დალაგებული სია (<ol>) – ეს არის სია, რომლის ელემენტები ნომრებით ან სხვა დალაგებით არის წარმოდგენილი.
+
+დაულაგებელი სია (<ul>) – ეს არის სია, რომლის ელემენტებიც უსიცოცხლო სეტკით არის წარმოდგენილი. ასეთ სიაში არ არის ნომრები.
+
+
+
+
+ აუცილებელი ტეგები:
+
+<html>
+<head>
+<title>
+<body>
+
+არააუცილებელი ტეგები:
+
+<meta>
+<link>
+<footer>
+<header>
+
+
+ <img src="image1.jpg" alt="პირველი სურათი">
+<img src="image2.jpg" alt="მეორე სურათი">
+<img src="image3.jpg" alt="მესამე სურათი">
+<img src="image4.jpg" alt="მეოთხე სურათი">
+<img src="image5.jpg" alt="მეხუთე სურათი">
+
+
+ <ol>
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+  <li>9</li>
+  <li>10</li>
+</ol>
+
+<ul>
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+  <li>9</li>
+  <li>10</li>
+</ul>
+
+<h1>My Favourite Books</h1>
+<ul>
+  <li><img src="book1.jpg" alt="1"></li>
+  <li><img src="book2.jpg" alt="2"></li>
+  <li><img src="book3.jpg" alt="3"></li>
+  <li><img src="book4.jpg" alt="4"></li>
+  <li><img src="book5.jpg" alt="5"></li>
+</ul>
+
+<ol>
+  <li>
+    <ul>
+      <li>1A</li>
+      <li>1B</li>
+      <li>1C</li>
+    </ul>
+  </li>
+  <li>
+    <ul>
+      <li>2A</li>
+      <li>2B</li>
+      <li>2C</li>
+    </ul>
+  </li>
+</ol>
+<ul>
+  <li>
+    <ol>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+    </ol>
+  </li>
+  <li>
+    <ol>
+      <li>A</li>
+      <li>B</li>
+      <li>C</li>
+    </ol>
+  </li>
+</ul>
