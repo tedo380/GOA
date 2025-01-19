@@ -1,0 +1,115 @@
+<!-- border არის CSS-ის ერთ-ერთი კუთვნილება, რომელსაც ვიყენებთ ელემენტის გარშემო საზღვრის (ან წვრილი ხაზის) შექმნისთვის.
+საზღვარი გამოხატავს ელემენტის საზღვრებს და ვიზუალურად ასხვავებს მას სხვა ელემენტებისგან
+border კუთვნილება გამოიყენება იმ მიზნით, რომ ელემენტებს ვიზუალურად გამოყვეს ერთმანეთისგან და დააჩქაროს კონტექსტი. --> 
+
+<!-- div არის HTML-ის ელემენტი, რომელსაც გამოიყენებენ როგორც "კონტეინერს" სხვადასხვა შინაარსის გამოსაყოფად.
+div-ს ხშირად ვიყენებთ, როდესაც გვჭირდება ელემენტების ჯგუფირება, მაგალითად, 
+როცა ვმუშაობთ სექციებით, გვერდის სხვადასხვა კომპონენტებით (მაგალითად, ჰედერი, ნავიგაცია, კონტენტი, ფუტერი). -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solid Border Example</title>
+    <style>
+        .solid-border {
+            border: 5px solid black; 
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="solid-border">
+    goa is the best
+</div>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dotted Border Example</title>
+    <style>
+        .dotted-border {
+            border: 5px dotted red;
+            padding: 10px; 
+        }
+    </style>
+</head>
+<body>
+
+<img class="dotted-border" src="https://via.placeholder.com/300" alt="Placeholder Image">
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline and Block-Level Elements</title>
+    <style>
+        
+        .inline {
+            color: red; 
+        }
+
+        
+        .block {
+            color: blue; 
+            margin-bottom: 10px; 
+        }
+
+        
+        .container {
+            padding: 20px;
+            border: 2px solid black;
+        }
+    </style>
+
+<div class="container">
+    
+    <span class="inline">Inline Element 1</span>
+    <span class="inline">Inline Element 2</span>
+    <span class="inline">Inline Element 3</span>
+    <span class="inline">Inline Element 4</span>
+    <span class="inline">Inline Element 5</span>
+
+    <br>
+
+    <div class="block">Block Level Element 1</div>
+    <div class="block">Block Level Element 2</div>
+    <div class="block">Block Level Element 3</div>
+    <div class="block">Block Level Element 4</div>
+    <div class="block">Block Level Element 5</div>
+</div>
+
+
+
+
+<table style="text-align: center; border: 2px aqua blue double;">
+    <tr style="background-color: black;"></tr>
+        <tr>tevdore</tr>
+        <tr>nagervadze</tr>
+        <tr>11 years old</tr>
+    <hr>
+        <tr>irakli</tr>
+        <tr>basiladze</tr>
+        <tr>13 years old</tr>
+    <hr>
+        <tr>nineli</tr>
+        <tr>nagervadze</tr>
+        <tr>24 years old</tr>
+</table>
+</body>
+</html>
