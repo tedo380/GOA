@@ -1,0 +1,147 @@
+<!-- ეს ატრიბუტი გამოიყენება ელემენტის უნიკალურად ასარჩევად. თითოეულ HTML დოკუმენტში id უნდა იყოს უნიკალური,
+რაც იმას ნიშნავს, რომ ერთი და იგივე id ვერ იქნას გამოყენებული ერთზე მეტი ელემენტისთვის. -->
+
+
+<!-- class უფრო ზოგადი და მრავალმხრივი ატრიბუტია. მას შეიძლება ჰქონდეს ერთ-ერთი ან მეტი ელემენტი,
+რაც იმას ნიშნავს, რომ ერთ და იმავე class-ს რამდენიმე ელემენტიც შეიძლება ჰქონდეს. -->
+
+
+<!-- id: გამოიყენეთ მაშინ, როცა გვერდზე მხოლოდ ერთ ელემენტს უნდა მიაწვდინოთ კონკრეტული სტილი ან ფუნქცია (JavaScript ან CSS). -->
+<!-- class: გამოიყენეთ მაშინ, როცა ერთსა და იმავე სტილს ან ფუნქციონალობას რამდენიმე ელემენტზე უნდა გამოიყენოთ. -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paragraphs with Different Colors</title>
+    <style>
+        
+        #p1 {
+            color: red;
+        }
+        #p2 {
+            color: blue;
+        }
+        #p3 {
+            color: green;
+        }
+        #p4 {
+            color: orange;
+        }
+        #p5 {
+            color: purple;
+        }
+    </style>
+
+    <p id="p1">This is the first paragraph with red color.</p>
+    <p id="p2">This is the second paragraph with blue color.</p>
+    <p id="p3">This is the third paragraph with green color.</p>
+    <p id="p4">This is the fourth paragraph with orange color.</p>
+    <p id="p5">This is the fifth paragraph with purple color.</p>
+
+
+    <!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ღილაკების მაგალითი</title>
+    <style>
+        .black-button {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .black-button:hover {
+            background-color: darkgray;
+        }
+    </style>
+
+
+
+    <button class="black-button">ღილაკი 1</button>
+    <button class="black-button">ღილაკი 2</button>
+    <button class="black-button">ღილაკი 3</button>
+    <button class="black-button">ღილაკი 4</button>
+    <button class="black-button">ღილაკი 5</button>
+
+
+
+<!-- CSS specificity არის პროცესი, რომლის მიხედვით ბრაუზერი განსაზღვრავს,
+თუ რომელი CSS წესი უნდა იქნას გამოყენებული კონკრეტული HTML ელემენტისთვის,
+როდესაც რამდენიმე წესი შეიძლება დაემთხვეს იგივე ელემენტს.-->
+
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ღილაკის მაგალითი</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="myButton" class="button-class">გაწერე ფერი ლურჯი</button>
+
+
+
+
+    <!DOCTYPE html>
+    <html lang="ka">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>დივ ბლოკების მაგალითი</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="block1">
+            <p>პარაგრაფი 1 (Block 1)</p>
+            <p>პარაგრაფი 2 (Block 1)</p>
+            <button>ღილაკი 1 (Block 1)</button>
+            <button>ღილაკი 2 (Block 1)</button>
+        </div>
+    
+        <div id="block2">
+            <p>პარაგრაფი 1 (Block 2)</p>
+            <p>პარაგრაფი 2 (Block 2)</p>
+            <button>ღილაკი 1 (Block 2)</button>
+            <button>ღილაკი 2 (Block 2)</button>
+        </div>
+    
+        <div id="block3">
+            <p>პარაგრაფი 1 (Block 3)</p>
+            <p>პარაგრაფი 2 (Block 3)</p>
+            <button>ღილაკი 1 (Block 3)</button>
+            <button>ღილაკი 2 (Block 3)</button>
+        </div>
+    
+        <div id="block4">
+            <p>პარაგრაფი 1 (Block 4)</p>
+            <p>პარაგრაფი 2 (Block 4)</p>
+            <button>ღილაკი 1 (Block 4)</button>
+            <button>ღილაკი 2 (Block 4)</button>
+        </div>
+    
+        <div id="block5">
+            <p>პარაგრაფი 1 (Block 5)</p>
+            <p>პარაგრაფი 2 (Block 5)</p>
+            <button>ღილაკი 1 (Block 5)</button>
+            <button>ღილაკი 2 (Block 5)</button>
+        </div>
+    </body>
+    </html>
+
+</body>
+</html>
+
+
+<!-- RGB (Red, Green, Blue) არის ფერების განსაზღვრის სისტემა,
+რომელიც მუშაობს ნათების სხვადასხვა ფერის (წითელი, მწვანე და ლურჯი) კომბინაციაზე. -->

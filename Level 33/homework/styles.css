@@ -1,0 +1,87 @@
+#myButton {
+    color: red; 
+}
+
+.button-class {
+    color: blue; 
+}
+
+
+#block1 {
+    color: white;
+    background-color: rgb(255, 99, 71); 
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+#block1 p {
+    margin: 5px 0;
+}
+
+#block1 button {
+    margin: 5px;
+}
+
+
+#block2 {
+    color: white;
+    background-color: rgb(70, 130, 180); 
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+#block2 p {
+    margin: 5px 0;
+}
+
+#block2 button {
+    margin: 5px;
+}
+
+
+#block3 {
+    color: white;
+    background-color: rgb(34, 139, 34); 
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+#block3 p {
+    margin: 5px 0;
+}
+
+#block3 button {
+    margin: 5px;
+}
+
+
+#block4 {
+    color: white;
+    background-color: rgb(255, 165, 0); 
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+#block4 p {
+    margin: 5px 0;
+}
+
+#block4 button {
+    margin: 5px;
+}
+
+
+#block5 {
+    color: white;
+    background-color: rgb(255, 20, 147); 
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+#block5 p {
+    margin: 5px 0;
+}
+
+#block5 button {
+    margin: 5px;
+}

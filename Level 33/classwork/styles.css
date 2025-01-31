@@ -1,0 +1,43 @@
+#myButton {
+    color: white;
+    background-color: blue;
+    border: 2px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.myParagraph {
+    color: red;
+    background-color: lightyellow;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+
+
+
+
+#paragraph1 {
+    color: rgb(255, 0, 0); 
+    background-color: rgb(255, 255, 0); 
+}
+
+#paragraph2 {
+    color: rgb(0, 255, 0); 
+    background-color: rgb(0, 0, 255); 
+}
+
+#paragraph3 {
+    color: rgb(0, 0, 255); 
+    background-color: rgb(255, 165, 0); 
+}
+
+#paragraph4 {
+    color: rgb(255, 165, 0); 
+    background-color: rgb(0, 255, 255); 
+}
+
+#paragraph5 {
+    color: rgb(255, 255, 255); 
+    background-color: rgb(0, 0, 0); 
+}
